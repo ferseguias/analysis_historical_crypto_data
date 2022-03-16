@@ -1,3 +1,6 @@
 # project_1
--introduccion
--
+-objective
+-data
+-steps
+-tools
+-conclusion
