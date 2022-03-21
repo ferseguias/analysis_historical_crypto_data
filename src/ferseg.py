@@ -322,7 +322,7 @@ def btc_maxi():
             label.set_visible(True)
         else:
             label.set_visible(False)
-    axes[4].set_title('Bitcoin analysis: marketcap over time - bitcoin halving event marked')
+    axes[4].set_title('Bitcoin analysis: marketcap over time - candles timeframe semester')
 
     #halving analysis 11-may-2020
     fig = sns.lineplot(data=monthly_scope, x="period", y="circulating_supply", color = "black", marker = "o", markersize = 3, ax=axes[5])

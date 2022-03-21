@@ -3,7 +3,7 @@
 ![portada](https://www.sap.com/dam/application/imagelibrary/photos/287000/287437.jpg/_jcr_content/renditions/287437_homepage_3840_1200.jpg.adapt.1920_522.true.false.false.false.jpg/1629157434919.jpg)
 
 # Objetive 🎯
-The main intention of this work is to analize market data, transfor it into conclusions based in market facts and investing logic to increase knowleadge of this new important sector.
+The main intention of this work is to analize market data and transform it into conclusions based in market facts and investing logic to increase knowleadge of this new important sector.
 
 # Scope and extra information 🔎
 From a wide list of cryptocurrencies in the market, I'll select the most relevant by market capitalization for the purpose of this project. 
