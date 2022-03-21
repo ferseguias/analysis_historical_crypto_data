@@ -5,7 +5,7 @@
 # Objetive 🎯
 The main intention of this work is to analize market data, transfor it into conclusions based in market facts and investing logic to increase knowleadge of this new important sector.
 
-# Scope and assets extra information 🔎
+# Scope and extra information 🔎
 From a wide list of cryptocurrencies in the market, I'll select the most relevant by market capitalization for the purpose of this project. 
 | Assets | Ticker | Creation year | Timeframe analyzed |
 | :---        |    :---:   |          ---: |          ---: |
@@ -63,7 +63,7 @@ Relevant column names used in data:
 
 # A picture is worth a thousand words:
 
-1. btc_maxi: overview of most the relevant asset by market cap and history
+1. btc_maxi🥇 : overview of most the relevant asset by market cap and history
     - Daily price
     - Weekly price
     - Monthly price candles (max, min, close)
@@ -71,15 +71,15 @@ Relevant column names used in data:
     - Monthly marketcap
     - Circulating supply effect after last btc halving event
 
-2. bullish_or_bearish: given a certain list of coins and date range, plot the accumulated gain/(loss) from each asset (funny fact: in the list of coins i selected during 2021, non of them gained less than 50% in that year - of course none of them reported loss)
+2. bullish_or_bearish🐂 🐻 : given a certain list of coins and date range, plot the accumulated gain/(loss) from each asset (funny fact: in the list of coins I selected during 2021, none of them gained less than 50% in that year - none of them reported loss 😎)
 
-3. market_cake: top 10 cryptocurrencies pie chart by their market value
+3. market_cake🍰 : top 10 cryptocurrencies pie chart by their market value
 
-4. metaverse:
+4. metaverse🎧 :
     - SAND/MANA marketcap and price comparasion
     - How Facebook's name change announcement affected these coins market value
 
-5. terra_protocol: according to terra's protocol, ust and luna supply is correlated (not in direct way). Minting (creating) ust implies luna burnt (destruction)
+5. terra_protocol🌝 : according to terra's protocol, ust and luna supply is correlated (not in direct way). Minting (creating) ust implies luna burnt (destruction)
     - Daily luna/ust price chart
     - Daily luna/ust circulating supply chart
 
@@ -88,59 +88,43 @@ Relevant column names used in data:
 1. data folder: csv/json files used
 
 2. notebooks folder: 
-    - api
-    - data_cleaning
-    - exploratory
-    - visualization
+    - api: marketcap extraction
+    - data_cleaning: transform and merge data
+    - exploratory: visual image of data obtained
+    - visualization: all analysis performed
 
-2. scr folder: folder where all the .py files are stored with all the explained functions used during the whole project.The .py files included are: 
-    - 
-    - 
-    - 
+3. scr folder: folder where all functions used along the project are stored
 
-3. Output: all output files. 
+4. Output: all output files. 
 
-# Conclusion 📈
+![image](https://media-exp1.licdn.com/dms/image/C5616AQFPsX_nM6cvHw/profile-displaybackgroundimage-shrink_350_1400/0/1517365325735?e=1653523200&v=beta&t=0-8GdkJMo_wAa-ctg1OSBDel0MaXOgpQqp9deKCgMJY)
 
+# Learnings 📈
 
-Having a customized dashbord
-- Volatility: bigger market cap, less volatility
+- Analyzing historical data we can obtain insights of the market (in real time if desired) and improve our decisions. It's generaly accepted that patters repeat over time
 
-- Market growth
+- There are many opportunities in this industry, but as reflected in all charts, there is still a lot of volatility/risk
 
-- News impact in the market
+- As it is a young industry, the growth is supernatural. The less marketcap, the more volatility. It can be taken as an advantage or you get rekt!
 
-- Quick market overview to improve decisions
+- News clearly impact the market
 
 - Buy crypto - not financial advice, DYOR 😄
-
-This project is a part of the Data Analyst Bootcamp at Ironhack (Madrid)
--- Project Status: 1/3 [Completed]
 
 # Tools 🔧
 
 [sys](https://docs.python.org/3/library/sys.html)
 
-[requests](https://pypi.org/project/requests/2.7.0/)
+[os](https://docs.python.org/3/library/os.html)
 
 [pandas](https://pandas.pydata.org/)
 
-[dotenv](https://pypi.org/project/python-dotenv/)
+[pycoingeckoAPI](https://www.coingecko.com/en/api/documentation)
 
-[pymongo](https://www.mongodb.com/2)
+[datetime](https://docs.python.org/3/library/datetime.html)
 
-[json](https://docs.python.org/3/library/json.html)
+[time](https://docs.python.org/3/library/time.html)
 
-[os](https://docs.python.org/3/library/os.html)
+[matplotlib](https://matplotlib.org/)
 
-[geopandas](https://geopandas.org/)
-
-[shapely](https://pypi.org/project/Shapely/)
-
-[reduce](https://docs.python.org/3/library/functools.html)
-
-[operator](https://docs.python.org/3/library/operator.html)
-
-[import dumps](https://pymongo.readthedocs.io/en/stable/api/bson/json_util.html)
-
-[re](https://docs.python.org/3/library/re.html)
+[pycoingecko](https://www.coingecko.com/en/api/documentation)
